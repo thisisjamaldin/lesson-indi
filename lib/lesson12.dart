@@ -9,7 +9,7 @@ class Lesson12Page extends StatefulWidget {
 
 class _Lesson11State extends State<Lesson12Page> {
   int count = 0;
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,6 +23,7 @@ class _Lesson11State extends State<Lesson12Page> {
               });
             },
             child: Container(
+              padding: EdgeInsets.all(12),
               decoration: BoxDecoration(
                 color: Colors.grey,
                 borderRadius: BorderRadius.circular(100),
